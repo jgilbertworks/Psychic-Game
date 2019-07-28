@@ -7,24 +7,16 @@ Other Resoources
 Setup
 
 ## Objective
-Option One: Psychic Game (Basic)
-Psychic
+Option One: Basic Quiz (Timed Form)
 
-You’re going to make a game just like the one in the video. Essentially, the app randomly picks a letter, and the user has to guess which letter the app chose. Put the following text on your page:
+You’ll create a trivia form with multiple choice or true/false options (your choice).
 
-Guess what letter I’m thinking of
+The player will have a limited amount of time to finish the quiz.
 
-Wins: (# of times the user has guessed the letter correctly)
+The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly.
+Don’t let the player pick more than one answer per question.
 
-Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
-
-Guesses Left: (# of guesses left. This will update)
-
-Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
-
-When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
-
-When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins).
+Don’t forget to include a countdown timer.
 
 ## Techologies
 
